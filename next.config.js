@@ -1,6 +1,6 @@
-const path = require("path");
-
-module.exports = {
-  distDir: path.join(__dirname, ".next"),
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  reactStrictMode: true
 };
 
+module.exports = nextConfig;

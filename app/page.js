@@ -3,7 +3,6 @@ export default function Home() {
     <div className="container">
       <h1>Danny Anderson</h1>
       <p>Data Engineer | Business Intelligence | Cloud Solutions</p>
-      <p>📍 Marion, IA | 📧 danielthomasanderson@gmail.com</p>
       <h2>About Me</h2>
       <p>
         I am a passionate data engineer with extensive experience in designing

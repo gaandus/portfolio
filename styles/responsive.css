@@ -1,0 +1,41 @@
+@media (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }
+  
+    .header-content {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .tabs {
+      flex-wrap: wrap;
+    }
+  
+    .tabs button {
+      font-size: 0.9rem;
+      padding: 10px;
+    }
+  
+    .job, .degree {
+      padding: 12px;
+      font-size: 0.9rem;
+    }
+  
+    .projects ul li {
+      padding: 12px;
+    }
+  
+    .technical-details {
+      padding: 10px;
+    }
+  
+    .social-icon {
+      font-size: 1.5rem;
+    }
+  
+    footer {
+      font-size: 0.7rem;
+    }
+  }
+  

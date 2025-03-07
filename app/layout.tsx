@@ -1,4 +1,4 @@
-import '../styles/globals.css';
+import '../styles/Home.css';
 import { ReactNode } from 'react';
 
 interface LayoutProps {

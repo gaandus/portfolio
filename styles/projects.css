@@ -1,0 +1,107 @@
+.projects {
+    padding-top: 30px; /* Ensure space between tabs and section */
+  }
+  
+  /* Align "Show Technical Details" Button Next to Header */
+  .projects-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap; /* Prevents wrapping */
+    gap: 20px; /* Adds space between the title and button */
+  }
+  
+  /* Ensure Button Stays on the Same Line */
+  .projects-header h2 {
+    white-space: nowrap; /* Prevents title from breaking */
+    flex-grow: 1; /* Allows title to take available space */
+  }
+  
+  .projects-header button {
+    background: #345ea5; /* Match logo color */
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    white-space: nowrap; /* Prevents button text from wrapping */
+  }
+  
+  .projects-header button:hover {
+    background: #005bb5;
+  }
+ 
+  
+  .projects ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .projects ul li {
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .projects ul li strong {
+    font-size: 1.2rem;
+    color: #345ea5;
+  }
+  
+  .projects ul p {
+    margin: 5px 0;
+  }
+  
+  /* Technical Details Styling */
+  .technical-details {
+    background: #eef4ff;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .technical-details ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .technical-details ul li {
+    padding: 3px 0;
+    font-size: 1rem;
+    color: #333;
+  }
+
+  /* Ensure project titles and GitHub icons are aligned */
+  .project-link {
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Space between title and icon */
+    text-decoration: none;
+    color: #345ea5; /* Match brand color */
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  /* GitHub Icon Styling */
+  .github-icon {
+    font-size: 1.2rem;
+    color: #345ea5;
+    transition: color 0.3s ease;
+  }
+  
+  /* Hover Effects */
+  .project-link:hover {
+    color: #005bb5;
+  }
+  
+  .project-link:hover .github-icon {
+    color: #005bb5;
+  }
+  

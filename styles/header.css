@@ -1,0 +1,52 @@
+/* Keep header content centered */
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  /* Ensure tagline has space */
+  header p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #555;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  /* Icons below tagline */
+  .icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px; /* Add spacing below tagline */
+  }
+  
+  .social-icon {
+    font-size: 2rem;
+    color: #345ea5; /* Match logo color */
+    transition: color 0.3s ease;
+  }
+  
+  .social-icon:hover {
+    color: #005bb5;
+  }
+  
+  /* Logo Container */
+  .logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .logo-container img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    padding-bottom: 5px;
+  }
+
+  
